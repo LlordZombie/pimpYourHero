@@ -1,12 +1,10 @@
 document.addEventListener("DOMContentLoaded", main);
-
 function main() {
     const x: NodeListOf<HTMLElement> | null = document.querySelectorAll(".armor_picker");
     x.forEach(x1=>{
         x1.addEventListener("click",addArmor)
     })
 }
-
 function addArmor(event:MouseEvent) {
     let img = (event!.target as HTMLElement).cloneNode(true);
     let target = document.getElementById("picked")
