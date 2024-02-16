@@ -1,0 +1,38 @@
+#original{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+section{
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+section .armor_picker{
+    width: 18%;
+}
+#grid{
+    display: grid;
+
+}
+#helmets{
+    background-color: green;
+}
+
+#armor{
+    background-color: blue;
+}
+#knife{
+    background-color: yellow;
+}
+#boots{
+    background-color: black;
+}
+#picked{
+    background-color: red;
+    text-align: center;
+}
+
+#picked img{
+    width: 90%;
+}
